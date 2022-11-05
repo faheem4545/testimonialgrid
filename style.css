@@ -246,354 +246,66 @@ body {
   .card__header__container {
     grid-area: 1;
   }
-  .card__header__container img {
-    border-radius: 50%;
-    width: 10%;
-    outline: 2px solid white;
-    margin-top: 2rem;
-    margin-left: 1rem;
-  }
   .card__header__title {
     margin-top: -5rem;
-    margin-left: 9rem;
+    margin-left: 10rem;
     margin-bottom: 1rem;
     font-weight: 700;
     line-height: 1.5;
-  }
-  .card__header__title h2 {
-    font-size: 1.3rem;
-  }
-  .card__header__body p {
-    font-size: 2rem;
-    line-height: 1.3;
-    font-weight: 700;
-    margin-top: 2.5rem;
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-  .card__header__body__description {
-    font-size: 1.5rem;
-    opacity: 0.5;
-    padding: 1rem;
-    line-height: 2;
-    margin-bottom: 3rem;
-  }
-}
-.card__header__container1 {
-  grid-area: 2;
-}
-.card__header__container1 img {
-  border-radius: 50%;
-  width: 10%;
-  outline: 2px solid white;
-  margin-top: 2rem;
-  margin-left: 1rem;
-}
-.card__header__title1 {
-  margin-top: -5rem;
-  margin-left: 9rem;
-  margin-bottom: 1rem;
-  font-weight: 700;
-  line-height: 1.5;
-}
-.card__header__title1 h2 {
-  font-size: 1.3rem;
-}
-.card__header__body1 p {
-  font-size: 2rem;
-  line-height: 1.3;
-  font-weight: 700;
-  margin-top: 2.5rem;
-  margin-left: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-.card__header__body__description1 {
-  font-size: 1.5rem;
-  opacity: 0.5;
-  padding: 1rem;
-  line-height: 2;
-  margin-bottom: 3rem;
-}
-
-.card__header__container2 {
-  grid-area: 3;
-}
-.card__header__container2 img {
-  border-radius: 50%;
-  width: 10%;
-  outline: 2px solid white;
-  margin-top: 2rem;
-  margin-left: 1rem;
-}
-.card__header__title2 {
-  margin-top: -5rem;
-  margin-left: 9rem;
-  margin-bottom: 1rem;
-  font-weight: 700;
-  line-height: 1.5;
-}
-.card__header__title2 h2 {
-  font-size: 1.3rem;
-}
-.card__header__body2 p {
-  font-size: 2rem;
-  line-height: 1.3;
-  font-weight: 700;
-  margin-top: 2.5rem;
-  margin-left: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-.card__header__body__description2 {
-  font-size: 1.5rem;
-  opacity: 0.5;
-  padding: 1rem;
-  line-height: 2;
-  margin-bottom: 3rem;
-}
-.card__header__container3 {
-  grid-area: 4;
-}
-.card__header__container3 img {
-  border-radius: 50%;
-  width: 10%;
-  outline: 2px solid white;
-  margin-top: 2rem;
-  margin-left: 1rem;
-}
-.card__header__title3 {
-  margin-top: -5rem;
-  margin-left: 9rem;
-  margin-bottom: 1rem;
-  font-weight: 700;
-  line-height: 1.5;
-}
-.card__header__title3 h2 {
-  font-size: 1.3rem;
-}
-.card__header__body3 p {
-  font-size: 2rem;
-  line-height: 1.3;
-  font-weight: 700;
-  margin-top: 2.5rem;
-  margin-left: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-.card__header__body__description3 {
-  font-size: 1.5rem;
-  opacity: 0.5;
-  padding: 1rem;
-  line-height: 2;
-  margin-bottom: 3rem;
-}
-.card__header__container4 {
-  grid-area: 5;
-}
-.card__header__container4 img {
-  border-radius: 50%;
-  width: 10%;
-  outline: 2px solid white;
-  margin-top: 2rem;
-  margin-left: 1rem;
-}
-.card__header__title4 {
-  margin-top: -5rem;
-  margin-left: 9rem;
-  margin-bottom: 1rem;
-  font-weight: 700;
-  line-height: 1.5;
-}
-.card__header__title4 h2 {
-  font-size: 1.3rem;
-}
-.card__header__body4 p {
-  font-size: 2rem;
-  line-height: 1.3;
-  font-weight: 700;
-  margin-top: 2.5rem;
-  margin-left: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-.card__header__body__description4 {
-  font-size: 1.5rem;
-  opacity: 0.5;
-  padding: 1rem;
-  line-height: 2;
-  margin-bottom: 3rem;
-}
-@media screen and (max-width: 500px) {
-  .card__header__container {
-    grid-area: 1;
-  }
-  .card__header__container img {
-    border-radius: 50%;
-    width: 10%;
-    outline: 2px solid white;
-    margin-top: 2rem;
-    margin-left: 1rem;
-  }
-  .card__header__title {
-    margin-top: -3rem;
-    margin-left: 7rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
-    line-height: 1.5;
-  }
-  .card__header__title h2 {
-    font-size: 1.3rem;
-  }
-  .card__header__body p {
-    font-size: 2rem;
-    line-height: 1.3;
-    font-weight: 700;
-    margin-top: 2.5rem;
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-  .card__header__body__description {
-    font-size: 1.5rem;
-    opacity: 0.5;
-    padding: 1rem;
-    line-height: 2;
-    margin-bottom: 3rem;
   }
   .card__header__container1 {
     grid-area: 2;
   }
   .card__header__container1 img {
+    margin-top: 2rem;
     border-radius: 50%;
     width: 10%;
     outline: 2px solid white;
-    margin-top: 2rem;
     margin-left: 1rem;
   }
   .card__header__title1 {
-    margin-top: -3rem;
+    margin-top: -4rem;
     margin-left: 7rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     font-weight: 700;
     line-height: 1.5;
   }
-  .card__header__title1 h2 {
-    font-size: 1.3rem;
-  }
-  .card__header__body1 p {
-    font-size: 2rem;
-    line-height: 1.3;
-    font-weight: 700;
-    margin-top: 2.5rem;
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-  .card__header__body__description1 {
-    font-size: 1.5rem;
-    opacity: 0.5;
-    padding: 1rem;
-    line-height: 2;
-    margin-bottom: 3rem;
-  }
+
   .card__header__container2 {
     grid-area: 3;
   }
   .card__header__container2 img {
+    margin-top: 2rem;
     border-radius: 50%;
     width: 10%;
     outline: 2px solid white;
-    margin-top: 2rem;
-    margin-left: 1rem;
-  }
-  .card__header__title2 {
-    margin-top: -3rem;
-    margin-left: 7rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
-    line-height: 1.5;
-  }
-  .card__header__title2 h2 {
-    font-size: 1.3rem;
-  }
-  .card__header__body2 p {
-    font-size: 2rem;
-    line-height: 1.3;
-    font-weight: 700;
-    margin-top: 2.5rem;
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-  .card__header__body__description2 {
-    font-size: 1.5rem;
-    opacity: 0.5;
-    padding: 1rem;
-    line-height: 2;
-    margin-bottom: 3rem;
+    margin-left: 2rem;
   }
   .card__header__container3 {
     grid-area: 4;
   }
-  .card__header__container3 img {
-    border-radius: 50%;
-    width: 10%;
-    outline: 2px solid white;
-    margin-top: 2rem;
-    margin-left: 1rem;
-  }
   .card__header__title3 {
-    margin-top: -3rem;
+    margin-top: -4rem;
     margin-left: 7rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     font-weight: 700;
     line-height: 1.5;
-  }
-  .card__header__title3 h2 {
-    font-size: 1.3rem;
-  }
-  .card__header__body3 p {
-    font-size: 2rem;
-    line-height: 1.3;
-    font-weight: 700;
-    margin-top: 2.5rem;
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-  .card__header__body__description3 {
-    font-size: 1.5rem;
-    opacity: 0.5;
-    padding: 1rem;
-    line-height: 2;
-    margin-bottom: 3rem;
   }
   .card__header__container4 {
     grid-area: 5;
   }
   .card__header__container4 img {
+    margin-top: 2rem;
     border-radius: 50%;
     width: 10%;
     outline: 2px solid white;
-    margin-top: 2rem;
     margin-left: 1rem;
   }
   .card__header__title4 {
-    margin-top: -3rem;
+    margin-top: -4rem;
     margin-left: 7rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     font-weight: 700;
     line-height: 1.5;
-  }
-  .card__header__title4 h2 {
-    font-size: 1.3rem;
-  }
-  .card__header__body4 p {
-    font-size: 2rem;
-    line-height: 1.3;
-    font-weight: 700;
-    margin-top: 2.5rem;
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-  .card__header__body__description4 {
-    font-size: 1.5rem;
-    opacity: 0.5;
-    padding: 1rem;
-    line-height: 2;
-    margin-bottom: 3rem;
   }
 }
